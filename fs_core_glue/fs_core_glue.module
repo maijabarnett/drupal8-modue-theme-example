@@ -1,0 +1,15 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function fs_core_glue_theme($existing, $type, $theme, $path) {
+  $variables = array(
+    'top_of_page' => array(
+      'variables' => array(
+        'source_text' => NULL,
+      ),
+    'template' => 'top_of_page'
+    ),
+  );
+  return $variables;
+}

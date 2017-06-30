@@ -1,0 +1,5 @@
+name: Forest Service Glue Module
+type: module
+description: 'Provides various enhancements and fixes.'
+package: Forest Service
+core: 8.x
